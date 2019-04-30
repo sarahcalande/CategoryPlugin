@@ -24,7 +24,7 @@ if( !function_exists('sarah_ampforwp_pb_cntmod_loopHtml') ){
                               <li>
                                   <div class="cat_mod_l">
                                    <a href="{{ampforwp_post_url}}">
-                                   {{if_image}}<amp-img  class="ampforwp_wc_shortcode_img"  src="{{image}}" width="{{width}}" height="{{height}}" layout="responsive" alt="{{image_alt}}"> </amp-img>{{ifend_image}}</a>
+                                   {{if_image}}<amp-img  class="ampforwp_wc_shortcode_img {{format}}"  src="{{image}}" width="{{width}}" height="{{height}}" layout="responsive" alt="{{image_alt}}"> </amp-img>{{ifend_image}}</a>
                                   </div>
                                   <div class="cat_mod_r">
                                     <a href="{{ampforwp_post_url}}">{{title}}</a>
